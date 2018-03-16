@@ -6,15 +6,15 @@ SoftwareSerial Serial100(5, 4);
 #include <ESP8266WiFi.h>
 #include "PubSubClient.h"
 // WIFI
-const char *ssid = "OpenWrt"; // Имя вайфай точки доступа
-const char *pass = "maximaxi"; // Пароль от точки доступа
+const char *ssid = "xxxx"; // Имя вайфай точки доступа
+const char *pass = "xxxx"; // Пароль от точки доступа
 WiFiClient wclient; 
 
 // MQTT
-const char *mqtt_server = "m23.cloudmqtt.com"; // Имя сервера MQTT
-const int mqtt_port = 12974; // Порт для подключения к серверу MQTT
-const char *mqtt_user = "ahrzwglb"; // Логин от сервер
-const char *mqtt_pass = "zs0fZ-DXwZ9a"; // Пароль от сервера
+const char *mqtt_server = "xxx.xxxxxxxxxxxx.xxx"; // Имя сервера MQTT
+const int mqtt_port = xxxx; // Порт для подключения к серверу MQTT
+const char *mqtt_user = "xxxx"; // Логин от сервер
+const char *mqtt_pass = "xxxx"; // Пароль от сервера
 
 PubSubClient client(wclient, mqtt_server, mqtt_port);
 
